@@ -1,0 +1,9 @@
+---
+title: "About"
+image: profile.jpg
+about:
+  template: jolla
+
+---
+
+About this blog
