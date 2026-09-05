@@ -1,84 +1,48 @@
-/* css styles */
-/* Import Computer Modern fonts */
 @import url('https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@master/fonts.css');
 
-:root {
-  --font-serif: "Computer Modern Serif", "Latin Modern Roman", Georgia, serif;
-  --font-mono: "Computer Modern Typewriter", "Latin Modern Mono", monospace;
-}
-
-/* Page text layout: Justified body with classic line length */
+/* Typography */
 body {
-  font-family: var(--font-serif);
-  font-size: 1.12rem;
-  line-height: 1.6;
+  font-family: "Computer Modern Serif", "Latin Modern Roman", Georgia, serif;
+  font-size: 1.15rem;
+  line-height: 1.65;
   color: #111111;
-  background-color: #ffffff;
 }
 
-/* Constrain column width to mirror an A4 / letter page margins */
-.quarto-container, 
+/* Headings */
+h1, h2, h3, h4, h5, h6, .navbar-brand {
+  font-family: "Computer Modern Serif", Georgia, serif !important;
+  font-weight: bold;
+}
+
+/* Center reading column like a standard paper */
+#quarto-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
 main.content {
-  max-width: 720px;
   text-align: justify;
   text-justify: inter-word;
   hyphens: auto;
-  -webkit-hyphens: auto;
 }
 
-/* Headings styled like standard LaTeX sections */
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-serif);
-  font-weight: bold;
-  color: #000000;
-  letter-spacing: -0.01em;
-}
-
-h1.title {
-  font-size: 2.2rem;
-  text-align: center;
-  margin-bottom: 0.8em;
-}
-
-/* Author and metadata line */
-.quarto-title-meta {
-  text-align: center;
-  font-family: var(--font-serif);
-  font-style: italic;
-  margin-bottom: 2em;
-}
-
-/* Monospace / code blocks */
+/* Code and monospace */
 code, pre {
-  font-family: var(--font-mono) !important;
-  font-size: 0.95em;
+  font-family: "Computer Modern Typewriter", monospace !important;
 }
 
-/* Theorem environments (AMS style) */
-.theorem, .lemma, .proposition, .corollary {
+/* Theorem and Proof environments */
+.theorem, .lemma, .proposition {
   margin: 1.5em 0;
-  padding: 0;
-  border-left: none; /* remove modern callout borders */
-  background: transparent; /* remove callout backgrounds */
+  font-style: italic;
 }
 
 .theorem-title, .lemma-title, .proposition-title {
   font-weight: bold;
   font-style: normal;
-  display: inline;
 }
 
-.theorem-title::after, .lemma-title::after {
-  content: " ";
-}
-
-/* Theorem body in italics */
-.theorem p, .lemma p, .proposition p {
-  font-style: italic;
-  display: inline;
-}
-
-/* Proof environment: "Proof." in italics with a Q.E.D. tombstone */
 .proof {
   margin: 1.2em 0;
   position: relative;
@@ -86,16 +50,9 @@ code, pre {
 
 .proof-title {
   font-style: italic;
-  font-weight: normal;
-  display: inline;
-}
-
-.proof-title::after {
-  content: " ";
 }
 
 .proof::after {
   content: "□";
   float: right;
-  font-size: 1.1em;
 }
