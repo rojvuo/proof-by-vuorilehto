@@ -5,12 +5,16 @@
     <lastmod>2026-09-05T18:59:40.028Z</lastmod>
   </url>
   <url>
-    <loc>https://your-website-url.example.com/index.html</loc>
-    <lastmod>2026-09-05T18:59:40.026Z</lastmod>
+    <loc>https://your-website-url.example.com/posts/001-homotopy/index.html</loc>
+    <lastmod>2026-09-05T19:15:09.863Z</lastmod>
   </url>
   <url>
     <loc>https://your-website-url.example.com/about.html</loc>
     <lastmod>2026-09-05T18:59:40.103Z</lastmod>
+  </url>
+  <url>
+    <loc>https://your-website-url.example.com/index.html</loc>
+    <lastmod>2026-09-05T18:59:40.026Z</lastmod>
   </url>
   <url>
     <loc>https://your-website-url.example.com/posts/post-with-code/index.html</loc>

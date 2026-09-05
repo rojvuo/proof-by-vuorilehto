@@ -7,11 +7,11 @@
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "proof by vuorilehto",
+    "objectID": "posts/001-homotopy/index.html",
+    "href": "posts/001-homotopy/index.html",
+    "title": "Homotopy Invariance of the Fundamental Groupoid",
     "section": "",
-    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nSep 5, 2026\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 2, 2026\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+    "text": "Let \\(X\\) and \\(Y\\) be topological spaces.\n\nTheorem 1 (Induced Functors) A continuous map \\(f : X \\to Y\\) induces a well-defined functor: \\[\\Pi_1(f) : \\Pi_1(X) \\to \\Pi_1(Y)\\]\n\n\nProof. For every path class \\([\\gamma] \\in \\Pi_1(X)(x_0, x_1)\\), define \\(\\Pi_1(f)([\\gamma]) = [f \\circ \\gamma]\\)…"
   },
   {
     "objectID": "about.html",
@@ -19,6 +19,13 @@
     "title": "About",
     "section": "",
     "text": "\\[f(X)\\] Fuck"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "proof by vuorilehto",
+    "section": "",
+    "text": "Homotopy Invariance of the Fundamental Groupoid\n\n\n\ntopology\n\ncategory-theory\n\n\n\n\n\n\n\n\n\nSep 5, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nSep 5, 2026\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 2, 2026\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",

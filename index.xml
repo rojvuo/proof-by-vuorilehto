@@ -12,6 +12,31 @@
 <generator>quarto-1.10.18</generator>
 <lastBuildDate>Fri, 04 Sep 2026 21:00:00 GMT</lastBuildDate>
 <item>
+  <title>Homotopy Invariance of the Fundamental Groupoid</title>
+  <link>https://your-website-url.example.com/posts/001-homotopy/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Let <img src="https://latex.codecogs.com/png.latex?X"> and <img src="https://latex.codecogs.com/png.latex?Y"> be topological spaces.</p>
+<div id="thm-induced" class="theorem">
+<p><span class="theorem-title"><strong>Theorem 1 (Induced Functors)</strong></span> A continuous map <img src="https://latex.codecogs.com/png.latex?f%20:%20X%20%5Cto%20Y"> induces a well-defined functor: <img src="https://latex.codecogs.com/png.latex?%5CPi_1(f)%20:%20%5CPi_1(X)%20%5Cto%20%5CPi_1(Y)"></p>
+</div>
+<div class="proof">
+<p><span class="proof-title"><em>Proof</em>. </span>For every path class <img src="https://latex.codecogs.com/png.latex?%5B%5Cgamma%5D%20%5Cin%20%5CPi_1(X)(x_0,%20x_1)">, define <img src="https://latex.codecogs.com/png.latex?%5CPi_1(f)(%5B%5Cgamma%5D)%20=%20%5Bf%20%5Ccirc%20%5Cgamma%5D">…</p>
+</div>
+
+
+
+ ]]></description>
+  <category>topology</category>
+  <category>category-theory</category>
+  <guid>https://your-website-url.example.com/posts/001-homotopy/</guid>
+  <pubDate>Fri, 04 Sep 2026 21:00:00 GMT</pubDate>
+</item>
+<item>
   <title>Post With Code</title>
   <dc:creator>Harlow Malloc</dc:creator>
   <link>https://your-website-url.example.com/posts/post-with-code/</link>
